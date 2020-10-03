@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tambah_kontak">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="20dp">
+            <Button
+                android:id="@+id/btnCancel"
+                android:background="@drawable/cancel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/lbTambahKontak"/>
+            <Button
+                android:id="@+id/btnInsert"
+                android:background="@drawable/check"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+
+        <EditText
+            android:id="@+id/etxNamaKontak"
+            android:background="@drawable/background_input_kontak"
+            android:hint="@string/htNamaLengkap"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="15dp"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/etxNomorTelpon"
+            android:background="@drawable/background_input_kontak"
+            android:hint="@string/htNomorTelpon"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="15dp"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/etxJabatan"
+            android:background="@drawable/background_input_kontak"
+            android:hint="@string/htJabatan"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="15dp"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/etxAlamat"
+            android:background="@drawable/background_input_kontak"
+            android:hint="@string/htAlamat"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="15dp"
+            android:textSize="12sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

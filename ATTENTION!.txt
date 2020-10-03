@@ -1,0 +1,4 @@
+Remember to:
+1. Copy the Web Side to your Local Server.
+2. Change the IP address with you IP Address in the Android Studio's Activities.
+3. Change the file directory to your's in the Android Studio's Activities
